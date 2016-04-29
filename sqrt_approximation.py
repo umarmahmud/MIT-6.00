@@ -9,7 +9,7 @@ while (abs(my_guess**2 - x)) >= epsilon and my_guess <= x:
 	my_guess += step
 	counter += 1
 
-print str(my_guess) + ' in ' + str(counter) + ' steps'
+print str(my_guess) + ' in ' + str(counter) + ' iterations'
 
 if (abs(my_guess**2 -x)) >= epsilon:
 	print 'unacceptable'
