@@ -20,7 +20,7 @@ while (True):
     elif answer == 'c':
         break
     
-    elif answer != 'l' or answer != 'h' or answer != 'c':
+    else:
         print ('Please enter valid choice')
 
     number = (ceiling + base) / 2
