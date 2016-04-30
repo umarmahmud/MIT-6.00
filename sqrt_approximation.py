@@ -1,7 +1,7 @@
-x = 25
+x = 144
 my_guess = 0.0
 epsilon = .01
-step = 1.5
+step = epsilon**2
 counter = 0
 
 while (abs(my_guess**2 - x)) >= epsilon and my_guess <= x:
