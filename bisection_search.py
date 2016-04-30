@@ -13,19 +13,19 @@ while (True):
 
     if answer == 'l':
         base = number
-        number = (ceiling + base) / 2
-    
+        
     elif answer == 'h':
         ceiling = number
-        number = (ceiling + base) / 2
         
     elif answer == 'c':
         break
     
     elif answer != 'l' or answer != 'h' or answer != 'c':
         print ('Please enter valid choice')
+
+    number = (ceiling + base) / 2
         
     print 'Is your secret number ' + str(number) + '?'
         
-print 'Game over. Your secret number was: ' + str(number) 
+print 'Game over. Your secret number was: ' + str(number)
 
