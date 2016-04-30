@@ -1,3 +1,5 @@
+#exhaustive enumeration
+
 x = 144
 my_guess = 0.0
 epsilon = .01
